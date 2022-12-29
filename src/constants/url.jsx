@@ -1,0 +1,1 @@
+export const BASE_URL = "https://digimon-api.vercel.app/api/digimon"
