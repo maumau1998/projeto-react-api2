@@ -7,6 +7,10 @@ Digidex / API
 
 http://mauricio.digidex.surge.sh/
 
+## Link da API 
+
+https://digimon-api.vercel.app/
+
 ## Stack utilizada :
 * React-router-dom <br>
 * Styled-components<br>
