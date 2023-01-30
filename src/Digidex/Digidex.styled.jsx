@@ -8,16 +8,17 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 gap: 25px;
-padding: 25px 0;
+padding: 25px 25px;
 background-color: #4A4A4A;
 
 .tituloDigidex{
    width: 100%;
    height: 120px;
-   font-size: 48px;
+   font-size: 200%;
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
-   padding: 60px;
+   padding-left: 2%;
    font-family: Helvetica;
    color: white;
    justify-content: space-between;
@@ -30,7 +31,7 @@ h4{
    font-family: Helvetica;
 }
 .btnExcluirTodos{
-   padding: 15px 20px;
+   padding: 0.5rem 20px;
    font-size: 22px;
    border-radius: 12px;
    border: none;
@@ -44,7 +45,7 @@ h4{
     
 `
 export const CardModal3 = styled.div`
-     width: 400px;
+     width: 100%;
      height: 400px;
      display: flex;
      justify-content: center;
@@ -69,7 +70,7 @@ export const CardModal4 = styled.div`
      align-items: center;
      flex-direction: column;
      font-family: Helvetica;
-     padding: 40px;
+     padding: 40px 60px;
      gap: 20px;
 
      h1{

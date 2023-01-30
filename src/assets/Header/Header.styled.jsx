@@ -6,23 +6,26 @@ export const ContainderHeader = styled.div`
    display: grid;
    grid-template-colums: 1fr 1fr 1fr;
    display: flex;
+   padding: 0 5px;
 
    .ladoEsquerdo{
-    width: 100%;
+    width: 25%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
     justify-content: center;
+    padding-top: 30px;
    }
    .ladoDireito{
-    width: 100%;
+    width: 25%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
    }
    .logo{
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -31,7 +34,7 @@ export const ContainderHeader = styled.div`
    .btnDigidex{
       background-color:#33A4F5;
       width: 287px;
-      height: 74px;
+      height: 3rem;
       font-size: 24px;
       font-weight: bold;
       color: white;
@@ -50,7 +53,7 @@ export const ContainderHeader = styled.div`
       font-weight: bold;
    }
    select{
-      width: 200px;
+      width: 90%;
       height: 40px;
       padding: 0 10px;
       font-size: 17px;
@@ -58,9 +61,13 @@ export const ContainderHeader = styled.div`
       color: white;
       background-color:#FF6262;
       border-radius: 8px;
+      position: relative;
+      bottom: 20px;
    }
    .btnDigidex2{
-      font-size: 24px;
+      font-size: 110%;
+      max-width: 150px;
+      width: 80%;
       font-weight: bold;
       font-family: Helvetica;
       color: black;
@@ -68,5 +75,8 @@ export const ContainderHeader = styled.div`
       border: none;
       border-bottom: 3px solid black;
       cursor: pointer;
+   }
+   .btnDigidex: hover{
+      background-color: blue;
    }
  `

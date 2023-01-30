@@ -8,25 +8,25 @@ export const ContainerPrincipal = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    padding: 25px 0;
+    padding: 25px 25px;
     background-color: #4A4A4A;
 
     h1{
         width: 100%;
         height: 120px;
-        font-size: 48px;
+        font-size: 200%;
         display: flex;
         align-items: center;
-        padding: 60px;
         font-family: Helvetica;
         color: white;
+        padding-left: 2%;
     }
     .quantidadeDigimon{
         margin-left: 28px;
     }
 `
 export const CardModal = styled.div`
-     width: 400px;
+     width: 100%;
      height: 400px;
      display: flex;
      justify-content: center;
@@ -51,7 +51,7 @@ export const CardModal2 = styled.div`
      align-items: center;
      flex-direction: column;
      font-family: Helvetica;
-     padding: 40px;
+     padding: 40px 60px;
      gap: 20px;
 
      h1{
