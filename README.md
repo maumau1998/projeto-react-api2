@@ -5,7 +5,7 @@ Digidex / API
 
 ## Deploy ( acesse o site )
 
-http://mauricio.digidex.surge.sh/
+http://mauricio-digidex-22.surge.sh/
 
 ## Link da API 
 
