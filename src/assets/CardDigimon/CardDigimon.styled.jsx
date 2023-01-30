@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const CardPrincipal = styled.div`
    width: 440px;
+   max-width: 110%;
    height: 210px;
    border-radius: 12px;
    display: flex;
@@ -14,7 +15,7 @@ export const CardPrincipal = styled.div`
       width: 170px;
       height: 170px;
       border-radius: 50%;
-      margin-left: 30px;
+      margin-left: 9%;
       border: 3px solid black;
    }
    .ladoEsquerdo{
